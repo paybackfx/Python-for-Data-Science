@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PDF files (ignore all PDF documents)
+*.pdf
+.*pdf
+**/*.pdf
+**/.*pdf
+
+# Packaging build artifacts (ex09) - dist/ is kept on purpose
+build/
+*.egg-info/
+.eggs/
+
+# Type checking / linting caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Root copies of the datasets - each exercise ships its own copy, so only
+# the redundant ones at the repository root are ignored (the leading slash
+# anchors the rule and leaves "<module>/exNN/*.csv" tracked and runnable).
+/*.csv
+/*.jpg
+/*.jpeg
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
